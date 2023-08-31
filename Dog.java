@@ -29,6 +29,26 @@ public class Dog {
         this.breed = new Breed(dogType);
     }
     //*************************** end constructors ******************************
+    //******************** Methods ***********************
+    public void bark() {
+        System.out.println(name + " says: BARK!");
+    }
+    public void eat(){
+        System.out.println(name + " is eating.");
+    }
+    public void jump(){
+        System.out.println(name + " is jumping.");
+    }
+    public void run(){
+        System.out.println(name + " is running.");
+    }
+    public void play(){
+        System.out.println(name + " is playing with toys.");
+    }
+    public void growl(){
+        System.out.println(name + " is growling.");
+    }
+    //************ Methods *********************
     //************ Getters and Setters *************************
     public String getColor(){return color;}
     public void setColor(String color){this.color = color;}
